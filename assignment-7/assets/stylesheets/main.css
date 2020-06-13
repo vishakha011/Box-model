@@ -1,0 +1,251 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 2. v2.0 | 20110126
+  License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*
+  =============================================
+  Custom Styles
+  =============================================
+*/
+body{
+  margin: 0 auto;
+  color: #D1D4E2;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*
+=============================================================
+Heading
+=============================================================
+*/ 
+
+h1 {
+  text-align: center;
+  font-size: 35px;
+  font-weight: 500;
+  padding-top: 1em;
+  color: white;
+  background: #2E3141;
+
+}
+
+#solid {
+  font-size: 45px;
+  font-weight: 540;
+  color: white;
+  padding-bottom: 35px;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 25px;
+  font-weight: 500;
+  color: white;
+  padding-bottom: 25px;
+  text-transform: uppercase;
+}
+
+
+/*
+=============================================================
+Paragraph
+=============================================================
+*/ 
+
+#para {
+  font-size: 20px;
+  font-weight: 400;
+  color: #888;
+  padding: 35px 0;
+  text-transform: uppercase;
+}
+
+p {
+  font-size: 17px;
+  font-weight: 400;
+  padding: 18px 0;
+    
+}
+
+/*
+=============================================================
+Header/Footer
+=============================================================
+*/  
+
+.primary-nav {
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing:  .5px;
+  text-transform: uppercase;
+  background: #2E3141;
+  }
+
+footer {
+  color: #888;
+  font-size: 14px;
+  padding-bottom: 44px;
+  padding-top: 44px;
+  background: #2E3141;
+  }
+  
+footer small {
+  float: left;
+  font-weight: 400;
+  margin-left: 260px;
+  }
+
+/*
+=============================================================
+Navigation
+=============================================================
+*/
+.nav {
+  text-align: center;
+  }
+  
+.nav li {
+  display: inline-block;
+  margin: 25px 15px;
+  vertical-align: top;
+}
+
+li a {
+  color: white;
+  text-decoration: none;
+}
+
+/*
+=============================================================
+Images
+=============================================================
+*/
+
+img {
+  width: 250px;
+  height: 250px;
+  margin-bottom: 15px;
+  border-radius: 50%;
+}
+
+/*
+=============================================================
+Section
+=============================================================
+*/
+
+.container {
+  width: 100%;
+  height: 500px;
+}
+
+.inner-container-1 {
+  width: 1000px;
+  margin: 0 auto;
+  padding-top: 180px;
+  padding-bottom: 40px;
+}
+
+.inner-container {
+  width: 1000px;
+  margin: 0 auto;
+  padding-top: 40px;
+  padding-bottom: 30px;
+}
+
+.section-1 {
+  background: #2E3141;
+}
+
+.section-2 {
+  background-color: #4C5C96;
+}
+
+.section-3 {
+  background-color: #45558D;
+}
+
+.section-4 {
+  background-color: #3F4E85;
+}
+
+/*
+=============================================================
+Buttons
+=============================================================
+*/
+button {
+  border: none;
+}
+
+button a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #D1D4E2;
+  font-size: 15px;
+  font-weight: 550;
+}
+.section-2 button { 
+  background-color: #4C5C96;
+}
+
+.section-3 button { 
+  background-color: #45558D;
+}
+
+.section-4 button { 
+  background-color: #3F4E85;
+}
+
+/*/
+=============================================================
+horizontal Line
+=============================================================
+*/
+hr { 
+  border: 1px solid #888;
+}
