@@ -52,154 +52,130 @@ table {
   =============================================
 */
 
-main {
-  margin: 50px auto;
-  width: 80%;
+body {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
 }
 
-.section {
-  margin-top: 50px;
-  margin-bottom: 45px;
-} 
-
-.exercise,
-.parent {
-  width: 600px;
-  margin: 0 auto;
-}
-/*
-  =============================================
-  First-Section
-  =============================================
-*/
-
-#box-model {
-  width: 160px;
-  height: 160px;
-  margin: 0 auto;
-  margin-top: 2em;
-  border: 20px solid #ADD8E6;
-  outline: 4px solid black;
-  box-shadow: 0 0 0 20px #ED7F80;
-  background-color: #DAFAD4;
-}
-
-.exercise-1 {
-  margin-top: 15px;
-  text-align: center;
-}
-
-.exercise {
-  display: inline-block;
-  margin: 50px auto 30px;
-  text-align: center;
-}
-
-.exercise-1 p,
-.exercise-1 span {
-  display: inline-block;
-  vertical-align: middle;
-  margin-right: 15px;
-}
-
-.exercise-1 span {
-  width: 18px;
-  height: 18px;
-  border-radius: 50%;
-  margin-right: 1px;
-}
-
-/*
-  =============================================
-  Second-Section
-  =============================================
-*/
-
-.wrapper {
-  margin: 0 auto;
-  width: 602px;
-} 
-
-.parent-container {
-  width: 600px;
-  margin: 40px 0;
-  border: 1px solid #5A5A5A;
-}
-
-.parent-container p {
-  display: inline-block;
-  width: 180px;
-  height: 100px;
-  margin: 10px;
-  background-color: #CCCCCC;
-}
-
-#section-2 p,
-#section-3 p {
-  border: 1px solid black;
-}
-
-#section-3 p {
-  box-sizing: border-box;
-}
-
-
-/*
-  =============================================
-  Headings
-  =============================================
-*/
-
-h1,
-h2,
-p {
-  font-family: 'Courier New', Courier, monospace;
-  color: #000;
-  text-align: center;
-  margin: 30px auto;
+header {
+    width: 948px;
+    margin: 0 auto;
 }
 
 h1 {
-  font-size: 54px;
-  font-weight: 800;
-  word-spacing: 8px;
+    font-size: 42px;
+    font-weight: 600;
+    /* text-align: center; */
+    margin-top: 30px;
+}
+
+
+hr {
+    width: 30%;
+    margin: 32px auto;
+    border: 2px dashed #CCCCCC;
+    border-style: none none dashed; 
 }
 
 h2 {
-  font-size: 32px;
-  font-weight: 700;
+    font-size: 30px;
+    /* text-align: center; */
 }
 
-/*
-  =============================================
-  Horizontal Line
-  =============================================
-*/
-
-hr {
-  width: 50%;
-  border: 2px dashed #CCCCCC;
-  border-style: none none dashed; 
+p {
+    font-size: 20px;
+    margin: 24px 0;
+    /* text-align: center; */
 }
 
-/*
+#box-model {
+    width: 180px;
+    height: 180px;
+    margin: 50px auto;
+    border: 20px solid #ADD8E6;
+    outline: 4px solid black;
+    box-shadow: 0 0 0 25px #ED7F80;
+    background-color: #DAFAD4;
+  }
+  
+  .container {
+    margin: 0 auto;
+    width: 354px;
+    /* padding-top: 15px; */
+  }
+
+  .wrapper {
+    margin-right: 0 8px;
+    display: inline-block;
+  }
+
+  .marker {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    margin-right: 1px;
+    background-color: black;
+    display: inline-block;
+  }
+
+  .marker-item {
+      font-size: 15px;
+      display: inline-block;
+  }
+
+  /*
   =============================================
-  Circle
+  Marker (Circles)
   =============================================
 */
 
 .content-color {
-  background-color: #DAFAD4;
-}
-
+    background-color: #DAFAD4;
+  }
+  
 .padding-color {
-  background-color: #ADD8E6;
-}
-
+    background-color: #ADD8E6;
+  }
+  
 .border-color {
-  background-color: black;
+    background-color: black;
+  }
+  
+.margin-color {
+    background-color: #ED7F80;
+  }
+
+/*
+  =============================================
+  Section 2
+  =============================================
+*/
+
+
+.parent-container {
+    width: 600px;
+    margin: 0 auto;
+    border: 1px solid #5A5A5A;
+    margin-bottom: 50px;
+  }
+
+.inner-box {
+    display: inline-block;
+    width: 180px;
+    height: 100px;
+    margin: 10px;
+    background-color: #CCCCCC;
+  }
+
+.alignment {
+    text-align: left;
 }
 
-.margin-color {
-  background-color: #ED7F80;
+.border,
+.border-box {
+  border: 1px solid black;
+}
+
+.border-box {
+  box-sizing: border-box;
 }

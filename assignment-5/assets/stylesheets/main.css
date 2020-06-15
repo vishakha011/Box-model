@@ -57,23 +57,19 @@ body {
 }
 
 .box {
-    width: 530px;
-    margin: 10em auto;
-}
-p {
     width: 400px;
     height: 400px;
-    padding: 60px;
-    margin: 25px;
+    padding: 55px;
+    margin: 100px auto;
     border: 35px solid #263943;
     outline: 20px solid green;
-    box-shadow: 20px 20px 16px 9px #860F36, -20px -20px 16px 9px #860F36 ;
+    box-shadow: 0 0 0 60px #860F36;
     background-color: #9A7E8C;
     box-sizing: border-box;
 }
 
-.text {
-    font-size: 3em;
-    padding-top: 122px;
-    text-align: center;  
+p {
+  font-size: 3em;
+  margin-top: 60px;
+  text-align: center;  
 }

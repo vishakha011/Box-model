@@ -7,73 +7,80 @@
     <title>Assignment - 6</title>
 </head>
 <body>
-    <main>
+    <header>
         <h1>The Box Model, Box-sizing & Box-shadow</h1>
-        <hr>
+    </header>
 
-        <!-- Exercise - 1 -->
-        <section class="section">
-            <h2>Exercise 1</h2>
-            
+    <main>
+
+        <hr>
+        <!-- EXERCISE -1 -->
+        <section class="exercise-1">
+            <h2>Exercise1</h2>       
             <div id="box-model"></div>
-
-            <section class="exercise-1">                          
-                <span class="content-color"></span>
-                <p>Content</p>
-                <span class= "padding-color"></span>
-                <p>Padding</p>
-                <span class= "border-color"></span>
-                <p>Border</p>                      
-                <span class= "margin-color"></span>
-                <p>Margin</p>
-                                                           
-            </section>
         </section>
 
+        <div class="container">
+            <div class="wrapper">
+                <div class="marker content-color"></div>
+                <p class="marker-item">Content</p>
+            </div>
+
+            <div class="wrapper">
+                <div class="marker padding-color"></div>
+                <p class="marker-item">Padding</p>
+            </div>
+
+            <div class="wrapper">
+                <div class="marker  border-color"></div>
+                <p class="marker-item">Border</p>
+            </div>
+
+            <div class="wrapper">
+                <div class="marker  margin-color"></div>
+                <p class="marker-item">Margin</p>
+            </div>
+        </div>
         <hr>
 
-        <!-- Exercise - 2 -->
-        <section class="section">
-            <h2>Exercise 2</h2>
-            <!--No-Border on the same line boxes-->
-            <section class="wrapper">
-                <p class="para">no border on these boxes.</p>    
-                <div class="parent-container" id="section-1">
-                    <p></p><!--
-                 --><p></p><!--
-                 --><p></p>                      
-                </div>   
-            </section>
-                                   
+        <!-- EXERCISE -2 -->
+        <section class="exercise-2">
+            <h2>Exercise2</h2>
+            <p>no border on these boxes.</p>
+
+            <!--Parent-Box-1-->
+            <div class="parent-container">
+                <div class="inner-box"></div><!--                    
+             --><div class="inner-box"></div><!--                    
+             --><div class="inner-box"></div>
+
+            </div>
             <hr>
 
-            <!--Bordered boxes-->
-            <section class="wrapper">
-                <p class="para">1px border on these boxes.</p>               
-                <div class="parent-container" id="section-2">
-                    <p></p><!--
-                 --><p></p><!--
-                 --><p></p>             
-                </div>
-            </section>
-                             
-        
+            <p>1px border on these boxes.</p>
+
+            <!--Parent-Box-2-->
+            <div class="parent-container alignment">
+                <div class="inner-box border"></div><!--                    
+             --><div class="inner-box border"></div><!--                    
+             --><div class="inner-box border"></div>
+
+            </div>
             <hr>
 
-            <!--Border on the same line boxes-->
-            <section class="wrapper">
-                <p class="para">1px border on these boxes but they are on the same line.</p>              
-                <div class="parent-container" id= "section-3">
-                    <p></p><!--
-                 --><p></p><!--
-                 --><p></p>              
-                </div> 
-            </section>
-                            
-           
+            <p>1px border on these boxes but they are on the same line.</p>
+
+            <!--Parent-Box-3-->
+            <div class="parent-container alignment">
+                <div class="inner-box border-box"></div><!--                    
+             --><div class="inner-box border-box"></div><!--                    
+             --><div class="inner-box border-box"></div>
+
+            </div>
+            
+
 
         </section>
-        
     </main>
 </body>
 </html>

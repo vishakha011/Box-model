@@ -53,12 +53,25 @@ Custom Styles
 */
 
 body {
-    background-color: goldenrod;
+  margin: 50px;
+  background-color: goldenrod;
 }
 
-#section-1 {
-    margin-top: 50px;
-    margin-left: 60px;
+/*
+=============================================
+Section 1
+=============================================
+*/
+
+.rectangle {
+  margin-top: 50px;
+  margin-left: 60px;
+  width: 100px;
+  height: 80px;
+  margin: 24px;
+  background-color: #B22E25;
+  border-width: 5px;
+  border-color: black;
 }
 
 h1 {
@@ -67,24 +80,15 @@ h1 {
   font-weight: 700;
 }
 
-.col-1,
-.col-2 {
-    display: inline-block;
-
+.col-1 {
+  display: inline-block;
 }
 
-.solid-border,
-.double-border,
-.dashed-border,
-.dotted-border,
-.no-border {
-    width: 100px;
-    height: 80px;
-    margin: 24px;
-    background-color: #B22E25;
-    border-width: 5px;
-    border-color: black;
-}
+/*
+=============================================
+Section 1 - Borders
+=============================================
+*/
 
 .solid-border {
     border-style: solid ;
@@ -105,23 +109,28 @@ h1 {
     border-style: none;
 }
 
-#section-2 {
-    display: inline-block;
-    margin: 40px;
-    background-color: #812E80;
+/*
+=============================================
+Section 1
+=============================================
+*/
+
+#section-1 {
+  display: inline-block;
+  background-color: #812E80;
     
 }
 
 .multiple-border {
-    width: 400px;
-    padding: 15px;
-    margin: 30px 15px;
-    color: white;
-    border-style: solid;
-    border-width: 15px;
-    border-top-color: #244AFB;
-    border-right-color: #808080;
-    border-bottom-color: #FDF731;
-    border-left-color: #418107;
-    background-color: #E93F33;
+  width: 400px;
+  padding: 15px;
+  margin: 30px 15px;
+  color: white;
+  border-style: solid;
+  border-width: 15px;
+  border-top-color: #244AFB;
+  border-right-color: #808080;
+  border-bottom-color: #FDF731;
+  border-left-color: #418107;
+  background-color: #E93F33;
 }
