@@ -54,6 +54,7 @@ table {
 body{
   margin: 0 auto;
   color: #D1D4E2;
+  line-height: 1.5;
   font-family: 'Roboto', sans-serif;
 }
 
@@ -107,7 +108,7 @@ Paragraph
 p {
   font-size: 17px;
   font-weight: 400;
-  line-height: 30px;
+  /* line-height: 30px; */
   padding: 18px 0;
     
 }
@@ -128,16 +129,14 @@ Header/Footer
 
 footer {
   color: #888;
-  font-size: 14px;
   padding-bottom: 44px;
   padding-top: 44px;
   background: #2E3141;
   }
   
 footer small {
-  float: left;
+  font-size: 14px;
   font-weight: 400;
-  margin-left: 260px;
   }
 
 /*
@@ -171,6 +170,7 @@ img {
   height: 250px;
   margin-bottom: 15px;
   border-radius: 50%;
+  object-fit: cover;
 }
 
 /*
@@ -181,21 +181,22 @@ Section
 
 .container {
   width: 100%;
+  padding-top: 40px;
+  padding-bottom: 30px;
   /* height: 500px; */
 }
 
 .inner-container-1 {
   width: 1000px;
   margin: 0 auto;
-  padding-top: 180px;
+  padding-top: 150px;
   padding-bottom: 40px;
 }
 
 .inner-container {
   width: 1000px;
   margin: 0 auto;
-  padding-top: 40px;
-  padding-bottom: 30px;
+  
 }
 
 .section-1 {
